@@ -4,9 +4,9 @@ import org.junit.Test;
 import play.mvc.Result;
 
 import static org.fest.assertions.Assertions.assertThat;
+import static play.mvc.Http.Status.OK;
 import static play.test.Helpers.*;
-import static play.test.Helpers.callAction;
-
+import static play.test.Helpers.contentAsString;
 
 public class ApplicationTest {
 
@@ -20,4 +20,5 @@ public class ApplicationTest {
         assertThat(charset(result)).isEqualTo("utf-8");
         assertThat(contentAsString(result)).contains("This is Playsment home page");
     }
+
 }
