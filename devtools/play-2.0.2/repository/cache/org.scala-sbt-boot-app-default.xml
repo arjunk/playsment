@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scala-sbt"
+		module="boot-app"
+		revision="1.0"
+		conf="default"
+		confs="default"
+		date="20120714135048"/>
+	<dependencies>
+		<module organisation="org.scala-sbt" name="sbt_2.9.1">
+			<revision name="0.11.2" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="org.scala-sbt" name="boot-app" conf="default" rev="0.11.2" rev-constraint-default="0.11.2" rev-constraint-dynamic="0.11.2" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
